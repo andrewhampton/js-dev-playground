@@ -4,7 +4,7 @@ import './greet.scss'
 
 let counter = 0
 
-export default function greet() {
+export function greet() {
   let greetingBox = document.querySelector('#greeting-box')
   if (!greetingBox) {
     greetingBox = document.createElement('div')
