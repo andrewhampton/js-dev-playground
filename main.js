@@ -1,9 +1,5 @@
-window.addEventListener('load', async () => {
+import greet from './greet.js'
+window.addEventListener('load', () => {
   const greetButton = document.querySelector('#greet')
-  greetButton.addEventListener('click', () => {
-    import('./greet.js').then(Module => {
-      const { default: greet } = Module
-      greet()
-    })
-  })
+  greetButton.addEventListener('click', greet)
 })
