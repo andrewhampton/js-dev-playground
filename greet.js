@@ -1,4 +1,6 @@
 import { html, render } from 'lit-html'
+import cat from './cat.webp'
+import './greet.scss'
 
 let counter = 0
 
@@ -10,5 +12,5 @@ export default function greet() {
     document.body.appendChild(greetingBox)
   }
 
-  render(html`${counter++}: Heyo`, greetingBox)
+  render(html`${counter++}: Heyo <img src="${cat}"></img>`, greetingBox)
 }
