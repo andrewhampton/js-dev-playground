@@ -2,10 +2,8 @@ body {
   font-family: sans-serif;
 }
 
-#greeting-box {
-  img {
-    max-height: 100px;
-  }
+#greeting-box img {
+  max-height: 100px;
 }
 
 button {

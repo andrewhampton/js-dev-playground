@@ -1,7 +1,7 @@
 import {html, render} from 'lit-html'
 import confetti from 'canvas-confetti'
 
-import './greet.scss'
+import './greet.css'
 import cat from './cat.webp'
 
 let counter = 0
